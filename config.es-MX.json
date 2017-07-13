@@ -1,0 +1,669 @@
+{
+  "version": "1.6",
+  "shareable": true,
+  "googleAPIKey": "AIzaSyBT2w4TvDdWFhFk35kcoO2C2hXJrw9W5SA",
+  "logoUrl": "data:image/png;base64,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",
+  "fullscreen": true,
+  "services": {
+    "proxyUrl": "http://167.40.64.74/wmsproxy/ws/wmsproxy/executeFromProxy",
+    "exportMapUrl": "http://webservices-staging.maps.canada.ca/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+  },
+  "export": {
+    "footnote": {
+      "value": "This is a footnote added from the configuration file. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce aliquet ante quis aliquet feugiat. Cras eget semper nunc, eu placerat purus. Nunc sed lacinia enim, ut sollicitudin quam. Nunc quis finibus massa, eget maximus enim. Donec ac nisl libero. Nunc eu pharetra arcu. Fusce luctus, magna cursus gravida tristique, risus nisi porttitor magna, ac dictum ipsum dui vel nulla. Integer id ornare augue. Quisque condimentum velit quis elementum porta. Sed dui enim, iaculis cursus diam volutpat, laoreet porta quam. Sed nec aliquet magna. Curabitur commodo fringilla metus, eu posuere sapien mollis nec."
+    }
+  },
+  "legendIsOpen": {
+    "large": true,
+    "medium": true,
+    "small": false
+  },
+  "map": {
+    "components": {
+      "geoSearch": {
+        "enabled": true,
+        "showGraphic": true,
+        "showInfo": true
+      },
+      "mouseInfo": {
+        "enabled": true,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "northArrow": {
+        "enabled": true
+      },
+      "overviewMap": {
+        "enabled": true,
+        "layerType": "imagery"
+      },
+      "scaleBar": {
+        "enabled": true
+      }
+    },
+    "extentSets": [
+      {
+        "id": "EXT_NRCAN_Lambert_3978",
+        "default": {
+          "xmin": -2681457,
+          "ymin": -883440,
+          "xmax": 3549492,
+          "ymax": 3482193,
+          "spatialReference": {
+            "wkid": 3978
+          }
+        }
+      },
+      {
+        "id": "EXT_ESRI_World_AuxMerc_3857",
+        "default": {
+          "xmin": -16632697.354854,
+          "ymin": 5022907.964742964,
+          "xmax": -5007771.626060756,
+          "ymax": 10015875.184845109,
+          "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857
+          }
+        }
+      }
+    ],
+    "lods": [
+      {
+        "id": "LOD_NRCAN_Lambert_3978",
+        "lods": [
+          {
+            "level": 0,
+            "resolution": 38364.660062653464,
+            "scale": 145000000
+          },
+          {
+            "level": 1,
+            "resolution": 22489.62831258996,
+            "scale": 85000000
+          },
+          {
+            "level": 2,
+            "resolution": 13229.193125052918,
+            "scale": 50000000
+          },
+          {
+            "level": 3,
+            "resolution": 7937.5158750317505,
+            "scale": 30000000
+          },
+          {
+            "level": 4,
+            "resolution": 4630.2175937685215,
+            "scale": 17500000
+          },
+          {
+            "level": 5,
+            "resolution": 2645.8386250105837,
+            "scale": 10000000
+          },
+          {
+            "level": 6,
+            "resolution": 1587.5031750063501,
+            "scale": 6000000
+          },
+          {
+            "level": 7,
+            "resolution": 926.0435187537042,
+            "scale": 3500000
+          },
+          {
+            "level": 8,
+            "resolution": 529.1677250021168,
+            "scale": 2000000
+          },
+          {
+            "level": 9,
+            "resolution": 317.50063500127004,
+            "scale": 1200000
+          },
+          {
+            "level": 10,
+            "resolution": 185.20870375074085,
+            "scale": 700000
+          },
+          {
+            "level": 11,
+            "resolution": 111.12522225044451,
+            "scale": 420000
+          },
+          {
+            "level": 12,
+            "resolution": 66.1459656252646,
+            "scale": 250000
+          },
+          {
+            "level": 13,
+            "resolution": 38.36466006265346,
+            "scale": 145000
+          },
+          {
+            "level": 14,
+            "resolution": 22.48962831258996,
+            "scale": 85000
+          },
+          {
+            "level": 15,
+            "resolution": 13.229193125052918,
+            "scale": 50000
+          },
+          {
+            "level": 16,
+            "resolution": 7.9375158750317505,
+            "scale": 30000
+          },
+          {
+            "level": 17,
+            "resolution": 4.6302175937685215,
+            "scale": 17500
+          }]
+      },
+      {
+        "id": "LOD_ESRI_World_AuxMerc_3857",
+        "lods": [
+          {
+            "level": 0,
+            "resolution": 19567.87924099992,
+            "scale": 73957190.948944
+          },
+          {
+            "level": 1,
+            "resolution": 9783.93962049996,
+            "scale": 36978595.474472
+          },
+          {
+            "level": 2,
+            "resolution": 4891.96981024998,
+            "scale": 18489297.737236
+          },
+          {
+            "level": 3,
+            "resolution": 2445.98490512499,
+            "scale": 9244648.868618
+          },
+          {
+            "level": 4,
+            "resolution": 1222.992452562495,
+            "scale": 4622324.434309
+          },
+          {
+            "level": 5,
+            "resolution": 611.4962262813797,
+            "scale": 2311162.217155
+          },
+          {
+            "level": 6,
+            "resolution": 305.74811314055756,
+            "scale": 1155581.108577
+          },
+          {
+            "level": 7,
+            "resolution": 152.87405657041106,
+            "scale": 577790.554289
+          },
+          {
+            "level": 8,
+            "resolution": 76.43702828507324,
+            "scale": 288895.277144
+          },
+          {
+            "level": 9,
+            "resolution": 38.21851414253662,
+            "scale": 144447.638572
+          },
+          {
+            "level": 10,
+            "resolution": 19.10925707126831,
+            "scale": 72223.819286
+          },
+          {
+            "level": 11,
+            "resolution": 9.554628535634155,
+            "scale": 36111.909643
+          },
+          {
+            "level": 12,
+            "resolution": 4.77731426794937,
+            "scale": 18055.954822
+          },
+          {
+            "level": 13,
+            "resolution": 2.388657133974685,
+            "scale": 9027.977411
+          },
+          {
+            "level": 14,
+            "resolution": 1.1943285668550503,
+            "scale": 4513.988705
+          },
+          {
+            "level": 15,
+            "resolution": 0.5971642835598172,
+            "scale": 2256.994353
+          },
+          {
+            "level": 16,
+            "resolution": 0.29858214164761665,
+            "scale": 1128.497176
+          },
+          {
+            "level": 17,
+            "resolution": 0.14929107082380833,
+            "scale": 564.248588
+          },
+          {
+            "level": 18,
+            "resolution": 0.07464553541190416,
+            "scale": 282.124294
+          },
+          {
+            "level": 19,
+            "resolution": 0.03732276770595208,
+            "scale": 141.062147
+          },
+          {
+            "level": 20,
+            "resolution": 0.01866138385297604,
+            "scale": 70.5310735
+          }
+        ]
+      }
+    ]
+  },
+  "legend": {
+    "type": "autopopulate"
+  },
+  "layers": [
+    {
+      "id": "scaleDep",
+      "name": "Air Ozone Scale Dep",
+      "layerType": "esriFeature",
+      "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/CESI_Air_Ozone/MapServer/2"
+    },
+    {
+      "id": "scaleDepDynamic",
+      "name": "Air SO2 Scale Dep",
+      "layerType": "esriDynamic",
+      "layerEntries": [{
+        "index": 1
+      }, {
+        "index": 2
+      }, {
+        "index": 3
+      }, {
+        "index": 4
+      }],
+      "url": "http://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/CESI_Air_SO2/MapServer"
+    },
+    {
+      "id": "stb_eos",
+      "name": "STB EOS 2014 CI ON 30m v2",
+      "layerType": "esriTile",
+      "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT_CBCT_GEOM_3978/MapServer",
+      "options": {
+        "opacity": {
+          "value": 0.5
+        }
+      }
+    },
+    {
+      "id": "ecogeo",
+      "name": "Eco Geo",
+      "layerType": "esriDynamic",
+      "layerEntries": [{
+        "index": 6,
+        "data": {
+          "enabled": false
+        }
+      }, {
+        "index": 7
+      }, {
+        "index": 8
+      }, {
+        "index": 9
+      }],
+      "url": "http://section917.cloudapp.net/arcgis/rest/services/EcoGeo/MapServer",
+      "metadataUrl": "http://intranet.ecdmp-stage.cmc.ec.gc.ca/geonetwork/srv/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&outputSchema=csw:IsoRecord&id=1c0eb1b2-93ae-49ae-a3ce-e495d8fd767b&_=1417717957845"
+    },
+    {
+      "id": "aafc_agri_environmental_indicators",
+      "name": "AAFC AGRI Environmental Indicators",
+      "layerType": "esriDynamic",
+      "layerEntries": [{
+        "index": 0,
+        "visibility": {
+          "value": false
+        },
+        "settings": {
+          "enabled": false
+        }
+      }, {
+        "index": 4
+      }, {
+        "index": 13
+      }],
+      "url": "http://www.agr.gc.ca/atlas/rest/services/mapservices/aafc_agri_environmental_indicators/MapServer",
+      "metadataUrl": "http://intranet.ecdmp-stage.cmc.ec.gc.ca/geonetwork/srv/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&outputSchema=csw:IsoRecord&id=1c0eb1b2-93ae-49ae-a3ce-e495d8fd767b&_=1417717957845"
+    },
+    {
+      "id": "land_PubStdZone_detail_proj",
+      "name": "Land Pub Standard Zone Details",
+      "layerType": "esriFeature",
+      "url": "http://ec.gc.ca/arcgis/rest/services/data_donnees/be12386d/MapServer/0",
+      "options": {
+        "opacity": {
+          "value": 0.1
+        },
+        "data": {
+          "enabled": false
+        },
+        "query": {
+          "enabled": true,
+          "value": false
+        }
+      }
+    },
+    {
+      "id": "powerplant100mw",
+      "name": "Power Plants, 100 MW or more",
+      "layerType": "esriFeature",
+      "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer/15",
+      "options": {
+        "visibility": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": "geomet_temp",
+      "name": "GeoMet Temp",
+      "layerType": "ogcWms",
+      "featureInfoMimeType": "text/plain",
+      "layerEntries": [{
+        "id": "GDPS.ETA_TT"
+      }],
+      "url": "http://geo.weather.gc.ca/geomet/",
+      "options": {
+        "visibility": {
+          "value": false
+        },
+        "opacity": {
+          "value": 0.4
+        }
+      }
+    },
+    {
+      "id": "aafc_plant_hardiness_zones",
+      "name": "AAFC Plant Hardiness Zones",
+      "layerType": "esriDynamic",
+      "layerEntries": [{
+        "index": 0
+      }],
+      "url": "http://www.agr.gc.ca/atlas/rest/services/mapservices/aafc_plant_hardiness_zones/MapServer",
+      "options": {
+        "visibility": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": "aafc_dynamic_layer",
+      "name": "AAFC Census of Agriculture 2011",
+      "layerType": "esriDynamic",
+      "layerEntries": [{
+        "index": 0,
+        "opacity": {
+          "value": 0.5
+        }
+      }],
+      "options": {
+        "opacity": {
+          "value": 0.8
+        }
+      },
+      "url": "http://www.agr.gc.ca/atlas/rest/services/mapservices/aafc_census_of_agriculture_2011_ccs/MapServer"
+    },
+    {
+      "id": "rail_wms",
+      "name": "Railways",
+      "layerType": "ogcWms",
+      "url": "http://maps.geogratis.gc.ca/wms/railway_en",
+      "layerEntries": [{
+        "id": "railway.track",
+        "name": "Lines of many colours"
+      }, {
+        "id": "railway.station"
+      }],
+      "featureInfoMimeType": "text/plain"
+    },
+    {
+      "id": "gin",
+      "name": "Groundwater Information Network",
+      "layerType": "ogcWms",
+      "url": "http://gin.gw-info.net/service/gin/wms/mediator/gin_en",
+      "layerEntries": [{
+        "id": "WaterWells"
+      }],
+      "featureInfoMimeType": "text/html"
+    },
+    {
+      "id": "sample_temp",
+      "name": "Temperature",
+      "layerType": "esriImage",
+      "url": "http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/World/Temperature/ImageServer",
+      "options": {
+        "visibility": {
+          "value": false
+        },
+        "opacity": {
+          "value": 0.5
+        }
+      }
+    }
+  ],
+  "baseMaps": [
+    {
+      "id": "baseNrCan",
+      "name": "Canada Base Map - Transportation (CBMT)",
+      "description": "The Canada Base Map - Transportation (CBMT) web mapping services of the Earth Sciences Sector at Natural Resources Canada, are intended primarily for online mapping application users and developers.",
+      "altText": "altText - The Canada Base Map - Transportation (CBMT)",
+      "thumbnailUrl": "assets/images/basemap/baseToponrcan.jpg",
+      "wkid": 3978,
+      "extentId": "EXT_NRCAN_Lambert_3978",
+      "lodId": "LOD_NRCAN_Lambert_3978",
+      "layers": [
+        {
+          "id": "CBMT",
+          "layerType": "esriFeature",
+          "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseSimple",
+      "name": "Canada Base Map - Simple",
+      "description": "Canada Base Map - Simple",
+      "altText": "altText - Canada base map - Simple",
+      "thumbnailUrl": "assets/images/basemap/baseSimple.jpg",
+      "wkid": 3978,
+      "extentId": "EXT_NRCAN_Lambert_3978",
+      "lodId": "LOD_NRCAN_Lambert_3978",
+      "layers": [
+        {
+          "id": "SMR",
+          "layerType": "esriFeature",
+          "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/Simple/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseCBME_CBCE_HS_RO_3978",
+      "name": "Canada Base Map - Elevation (CBME)",
+      "description": "The Canada Base Map - Elevation (CBME) web mapping services of the Earth Sciences Sector at Natural Resources Canada, is intended primarily for online mapping application users and developers.",
+      "altText": "altText - Canada Base Map - Elevation (CBME)",
+      "thumbnailUrl": "assets/images/basemap/baseCBMT_CBCT_GEOM_3978.jpg",
+      "wkid": 3978,
+      "extentId": "EXT_NRCAN_Lambert_3978",
+      "lodId": "LOD_NRCAN_Lambert_3978",
+      "layers": [
+        {
+          "id": "CBME_CBCE_HS_RO_3978",
+          "layerType": "esriFeature",
+          "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseCBMT_CBCT_GEOM_3978",
+      "name": "Canada Base Map - Transportation (CBMT)",
+      "description": " The Canada Base Map - Transportation (CBMT) web mapping services of the Earth Sciences Sector at Natural Resources Canada, are intended primarily for online mapping application users and developers.",
+      "altText": "altText - Canada Base Map - Transportation (CBMT)",
+      "thumbnailUrl": "assets/images/basemap/baseCBME_CBCE_HS_RO_3978.jpg",
+      "wkid": 3978,
+      "extentId": "EXT_NRCAN_Lambert_3978",
+      "lodId": "LOD_NRCAN_Lambert_3978",
+      "layers": [
+        {
+          "id": "CBMT_CBCT_GEOM_3978",
+          "layerType": "esriFeature",
+          "url": "http://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT_CBCT_GEOM_3978/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseEsriWorld",
+      "name": "World Imagery",
+      "description": "World Imagery provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery worldwide.",
+      "altText": "altText - World Imagery",
+      "thumbnailUrl": "assets/images/basemap/imagery.jpg",
+      "wkid": 102100,
+      "extentId": "EXT_ESRI_World_AuxMerc_3857",
+      "lodId": "LOD_ESRI_World_AuxMerc_3857",
+      "layers": [
+        {
+          "id": "World_Imagery",
+          "layerType": "esriFeature",
+          "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseEsriPhysical",
+      "name": "World Physical Map",
+      "description": "This map presents the Natural Earth physical map at 1.24km per pixel for the world and 500m for the coterminous United States.",
+      "altText": "altText - World Physical Map",
+      "thumbnailUrl": "assets/images/basemap/imagery.jpg",
+      "wkid": 102100,
+      "extentId": "EXT_ESRI_World_AuxMerc_3857",
+      "lodId": "LOD_ESRI_World_AuxMerc_3857",
+      "layers": [
+        {
+          "id": "World_Physical_Map",
+          "layerType": "esriFeature",
+          "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseEsriRelief",
+      "name": "World Shaded Relief",
+      "description": "This map portrays surface elevation as shaded relief. This map is used as a basemap layer to add shaded relief to other GIS maps, such as the ArcGIS Online World Street Map.",
+      "altText": "altText - World Shaded Relief",
+      "thumbnailUrl": "assets/images/basemap/imagery.jpg",
+      "wkid": 102100,
+      "extentId": "EXT_ESRI_World_AuxMerc_3857",
+      "lodId": "LOD_ESRI_World_AuxMerc_3857",
+      "layers": [
+        {
+          "id": "World_Shaded_Relief",
+          "layerType": "esriFeature",
+          "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseEsriStreet",
+      "name": "World Street Map",
+      "description": "This worldwide street map presents highway-level data for the world.",
+      "altText": "altText - ESWorld Street Map",
+      "thumbnailUrl": "assets/images/basemap/imagery.jpg",
+      "wkid": 102100,
+      "extentId": "EXT_ESRI_World_AuxMerc_3857",
+      "lodId": "LOD_ESRI_World_AuxMerc_3857",
+      "layers": [
+        {
+          "id": "World_Street_Map",
+          "layerType": "esriFeature",
+          "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseEsriTerrain",
+      "name": "World Terrain Base",
+      "description": "This map is designed to be used as a base map by GIS professionals to overlay other thematic layers such as demographics or land cover.",
+      "altText": "altText - World Terrain Base",
+      "thumbnailUrl": "assets/images/basemap/imagery.jpg",
+      "wkid": 102100,
+      "extentId": "EXT_ESRI_World_AuxMerc_3857",
+      "lodId": "LOD_ESRI_World_AuxMerc_3857",
+      "layers": [
+        {
+          "id": "World_Terrain_Base",
+          "layerType": "esriFeature",
+          "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+        }
+      ]
+    },
+    {
+      "id": "baseEsriTopo",
+      "name": "World Topographic Map",
+      "description": "This map is designed to be used as a basemap by GIS professionals and as a reference map by anyone.",
+      "altText": "altText - World Topographic Map",
+      "thumbnailUrl": "assets/images/basemap/imagery.jpg",
+      "wkid": 102100,
+      "extentId": "EXT_ESRI_World_AuxMerc_3857",
+      "lodId": "LOD_ESRI_World_AuxMerc_3857",
+      "layers": [
+        {
+          "id": "World_Topo_Map",
+          "layerType": "esriFeature",
+          "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer"
+        }
+      ]
+    }
+  ],
+  "navBar": {
+    "zoom": "buttons",
+    "extra": [
+      "geoLocator",
+      "home",
+      "help"
+    ]
+  },
+  "sideMenu": {
+    "logo": true,
+    "items": [
+        [
+            "layers",
+            "basemap"
+        ],
+        [
+            "fullscreen",
+            "export",
+            "share",
+            "touch",
+            "help"
+        ],
+        [
+            "language"
+        ]
+    ]
+  }
+}
